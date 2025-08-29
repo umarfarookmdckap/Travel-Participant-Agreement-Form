@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel parcipent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>RCB Travels</h1>
+    </div>
+
+    <div class="form-wrapper">
+        <table class="form">
+            <form action="submit">
+
+                              <!-- Name -->
+
+                <label for="Name" class="up">Name : </label>
+                <input type="text" placeholder="Enter your full name" id="Name"><br>
+
+                <br>
+                               <!-- Date -->
+
+                <label for="Date" class="up">Date : </label>
+                <input type="date" id="Date"><br>
+
+                <br>
+                               <!-- Date -->
+                                
+                <label class="up">Gender : </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" class="mm">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" class="mm">Female</label><br>
+
+                <br>
+
+                <label for="file" class="up">Choose file : </label>
+                <input type="file" id="file"><br>
+
+                <br>
+
+                <label for="Nationality" class="up">Select your country : </label>
+                <select name="country" id="Nationality">
+                    <option value="USA" id="Nationality">United states</option>
+                    <option value="CAN" id="Nationality">Canada</option>
+                    <option value="IND" id="Nationality">India</option>
+                    <option value="NZ" id="Nationality">New zeland</option>
+
+                </select><br>
+
+                <br>
+
+                <label for="pass" class="up">Passport number : </label>
+                <input type="number" id="pass" placeholder="Enter your passport number here"><br>
+
+                <br>
+
+                <label for="Adhar" class="up">Adhar number : </label>
+                <input type="number" id="Adhar" placeholder="Enter your adhar number here"><br>
+
+                <br>
+
+                <label for="emr-con-name" class="up">Emergency contact Name : </label>
+                <input type="text" placeholder="Type full name" id="emr-con-name"><br>
+
+                <br>
+
+                <label for="emr-con" class="up">Emergency Contact : </label>
+                <input type="number" id="emr-con" placeholder="Enter your number"><br>
+
+                <br>
+
+                <label for="vac" class="up">Are you fully vaccinated : </label>
+
+                <input type="radio" id="yes" name="vac" value="yes">
+                <label for="yes" class="mm">Yes</label>
+
+                <input type="radio" id="no" name="vac" value="no">
+                <label for="no" class="mm">No</label><br>
+
+                <br>
+
+                <label for="vac" class="up">Do you have any pre-existing medical conditions : </label>
+
+                <input type="radio" id="ye" name="gender" value="male">
+                <label for="ye" class="mm">Yes</label>
+
+                <input type="radio" id="n" name="gender" value="female">
+                <label for="n" class="mm">No</label><br>
+
+                <br>
+
+                <label for="specify" class="down">If yes please specify : </label><br>
+                <textarea name="specify" id="specify"></textarea><br>
+
+                <br>
+
+                <label for="med" class="down">Are you currently taking any medications : </label>
+
+                <input type="radio" id="sey" name="gender" value="male">
+                <label for="sey" class="mm">Yes</label>
+
+                <input type="radio" id="on" name="gender" value="female">
+                <label for="on" class="mm">No</label><br>
+
+                <br>
+
+                <label for="note" class="down">If yes, please list : </label><br>
+                <textarea name="specify" id="note"></textarea><br>
+
+                <br>
+
+                <label for="dec" class="down">Do you authorise emergency medical treatment if necessary during the
+                    flight: </label><br>
+
+                <input type="radio" id="se" name="gender" value="male">
+                <label for="se" class="mm">Yes</label>
+
+                <input type="radio" id="o" name="gender" value="female">
+                <label for="o" class="mm">No</label><br>
+
+                <br>
+
+                <label for="dec" class="down"> Please select your preferred payment method : </label>
+
+                <input type="radio" id="cash" name="gender" value="cash">
+                <label for="cash" class="mm">cash</label>
+
+                <input type="radio" id="upi" name="gender" value="upi">
+                <label for="upi" class="mm">upi</label>
+
+                <input type="radio" id="card" name="gender" value="card">
+                <label for="card" class="mm">card</label><br>
+
+                <br>
+
+                <label for="sign" class="down">Submit your scanned signature</label>
+                <input type="file" id="sign"><br>
+                <br>
+
+                <a href="ram.html"
+                    style="display: inline-block; padding: 10px 20px; background-color: none; border-radius: 4px;">
+                    Next Page
+                </a>
+
+
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>

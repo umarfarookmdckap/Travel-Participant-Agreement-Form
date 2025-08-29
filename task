@@ -1,0 +1,17 @@
+1. Full Name: - Text
+2. Date of Birth: - Calendar
+3. Gender: - Radio button
+4. Photocopy - File
+5. Nationality: - Dropdown
+6. Passport Number: - Text
+7. Aadhar Number: Type number
+8. Emergency Contact Name: - Text
+9. Emergency Contact Phone Number: - Text
+10. Are you fully vaccinated: Radiobutton?
+11. Do you have any pre-existing medical conditions? - Radio button
+12. If yes, please specify: - Text Area
+13. Are you currently taking any medications? - Radio button
+14. If yes, please list: the text area
+15. Do you authorise emergency medical treatment if necessary during the flight? - Radio button
+16. Please select your preferred payment method (Ex- Cash, UPI etc): - Radio button
+17. Scanned Signature: - File

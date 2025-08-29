@@ -1,0 +1,52 @@
+.h2{
+   text-shadow: 4px 4px 4px rgb(255, 179, 0);
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+.map:hover{
+    box-shadow: 15px 15px 15px rgb(247, 196, 55);
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+body{
+    background: linear-gradient(90deg ,rgb(208, 8, 8), #391d1d, #391d1d,  rgb(208, 8, 8));
+    color: rgb(255, 179, 0);
+    
+}
+.pg{
+    box-shadow: 0 0 20px 5px red;
+    transition: 01s;
+    transform: scale(0.9);
+    border-radius: 40%;
+}
+a{
+    text-align: center;
+    margin-left: 40%;
+    background-color: black;
+    color: red;
+    border-radius: 50%;
+    border: solid 2px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: red;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0 0 20px 5px white;
+}
+
+button{ text-align: center;
+    margin-left: 8%;
+    background-color: black;
+    color: red;
+    border: solid 2px;
+    text-decoration: none;}
+
+button:hover{
+     background-color: red;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0 0 20px 5px white;
+}
